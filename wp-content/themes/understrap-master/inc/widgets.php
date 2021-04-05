@@ -136,6 +136,18 @@ if ( ! function_exists( 'understrap_widgets_init' ) ) {
 
 		register_sidebar(
 			array(
+				'name'          => __( 'Hero Slider 1', 'understrap' ),
+				'id'            => 'heroslider',
+				'description'   => __( 'Hero slider area. Place two or more widgets here and they will slide!', 'understrap' ),
+				'before_widget' => '<div class="carousel-item">',
+				'after_widget'  => '</div>',
+				'before_title'  => '',
+				'after_title'   => '',
+			)
+		);
+
+		register_sidebar(
+			array(
 				'name'          => __( 'Hero Canvas', 'understrap' ),
 				'id'            => 'herocanvas',
 				'description'   => __( 'Full size canvas hero area for Bootstrap and other custom HTML markup', 'understrap' ),

@@ -15,8 +15,8 @@ if ( is_active_sidebar( 'hero' ) || is_active_sidebar( 'statichero' ) || is_acti
 
 		<?php
 		get_template_part( 'sidebar-templates/sidebar', 'hero' );
-		get_template_part( 'sidebar-templates/sidebar', 'herocanvas' );
-		get_template_part( 'sidebar-templates/sidebar', 'statichero' );
+//		get_template_part( 'sidebar-templates/sidebar', 'herocanvas' );
+//		get_template_part( 'sidebar-templates/sidebar', 'statichero' );
 		?>
 
 	</div>
